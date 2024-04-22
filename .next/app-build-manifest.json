@@ -1,0 +1,45 @@
+{
+  "pages": {
+    "/(dashboard)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/page.js"
+    ],
+    "/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dashboard)/layout.css",
+      "static/chunks/app/(dashboard)/layout.js"
+    ],
+    "/(dashboard)/table/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/table/page.js"
+    ],
+    "/(dashboard)/table/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/table/layout.js"
+    ],
+    "/(dashboard)/form/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/form/page.js"
+    ],
+    "/(dashboard)/form/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/form/layout.js"
+    ],
+    "/(dashboard)/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/login/page.js"
+    ],
+    "/(dashboard)/login/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/login/layout.js"
+    ]
+  }
+}
