@@ -1,10 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Dashboard from "./components/Dashboard";
+import FormLayout from "./components/FormLayout";
+import Table from "./components/Table";
 function App() {
   return (
-    <div>
-      <h1 className=" text-4xl bg-red-400 text-white">
-        Hello my name is tamal
-      </h1>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/form-layout" element={<FormLayout />} />
+        <Route path="/tables" element={<Table />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
